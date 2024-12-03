@@ -21,7 +21,7 @@ function App() {
           <ul className="hidden md:flex space-x-4">
             <li><a href="https://sdekrishna.netlify.app/" className="hover:text-blue-400">Krishna Kumar</a></li>
             <li>|</li>
-            <li><a href="mailto:krishnakumar3kgt@gmail.com" className="hover:text-blue-400">Email: krishnakumar3kgt@gmail.com</a></li>
+            <li><a href="" className="hover:text-blue-400"</a>Github</li>
           </ul>
 
           {/* Mobile Menu Toggle Button */}
@@ -34,7 +34,7 @@ function App() {
         {isMenuOpen && (
           <ul className="md:hidden bg-gray-700 p-4 space-y-2 text-center">
             <li><a href="https://sdekrishna.netlify.app/" className="hover:text-blue-400">Krishna Kumar</a></li>
-            <li><a href="mailto:krishnakumar3kgt@gmail.com" className="hover:text-blue-400">Email: krishnakumar3kgt@gmail.com</a></li>
+            <li><a href="https://github.com/Krishnakumar3k" className="hover:text-blue-400">Github</a></li>
           </ul>
         )}
       </nav>
